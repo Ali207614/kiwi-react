@@ -1,0 +1,14 @@
+.listUl{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 39px;
+    letter-spacing: -6.7332e-05px;
+    color: #000000;
+}
+.listUl ul li::marker{
+    color: #CBEBEA;
+    border: 1px solid #80B1EB;
+    font-size: 22px;
+}

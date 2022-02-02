@@ -1,0 +1,87 @@
+.carousel h3{
+    font-size: 24px;
+}
+.carousel .slick-list{
+    overflow: hidden;
+   
+}
+.carousel{
+    margin-top: 37px;
+}
+.carousel .slick-track{
+    display: flex;
+}
+.carousel .slick-slider {
+    height: 97px;
+    position: relative;
+}
+.carousel .slick-next{
+    position: absolute;
+    right: -27px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: none;
+    border: none;
+    color: transparent;
+    outline: none;
+}
+.carousel .slick-next::before{
+    content: "";
+    background-image: url("../../assets/icons/Fill\ 1.svg");
+    background-repeat: no-repeat;
+    display: block !important;
+    background-size: contain;
+    background-position: 6px;
+    width: 34px;
+    height: 34px;
+    box-shadow: 1px 3px 6px rgb(0 0 0 / 13%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.carousel .slick-prev::after{
+    content: "";
+    background-image: url("../../assets/icons/Group.svg");
+    background-repeat: no-repeat;
+    display: block !important;
+    background-size: contain;
+    background-position: -6px;
+    width: 34px;
+    height: 34px;
+    box-shadow: 1px 3px 6px rgb(0 0 0 / 13%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.carousel .slick-prev{
+    position: absolute;
+    top: 5px;
+    left: -26px;
+    margin: auto;
+    background: none;
+    border: none;
+    color: transparent;
+    outline: none;
+    z-index: 1;
+}
+.overlay{
+    width: 100vw;
+    
+    background: rgba(255, 255, 255, 0.784618);
+    position: absolute;
+    top: 850px;
+    transition: ease all 0.6s;
+    right: 0;
+    opacity: 0;
+    z-index: 5;
+}
+.overlay.over{
+    top: 0;
+    opacity: 1;
+    height: 466vh;
+}
+.relat{
+    position: relative;
+}
+.slick-slide , .slick-track{
+    height: 118px;
+}

@@ -1,0 +1,19 @@
+.block-4{
+    height: 287px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(182, 202, 251, 0.606827);
+}
+.more .block-4{
+    height: auto;
+}
+.bottom-link{
+    font-family: "Gilroy",sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #4E72CA;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    margin: 23px auto;
+}

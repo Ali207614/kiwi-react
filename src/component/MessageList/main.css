@@ -1,0 +1,44 @@
+.people{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #25252B;
+    margin-bottom: 5px;
+}
+.avatar{
+    margin-right: 16px;
+}
+.mr-2{
+    margin-right: 16px;
+}
+.sale{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #25252B;
+}
+.date-product{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #686871;
+}
+.attachment{
+
+}
+.messageList{
+    background: rgba(182, 202, 251, 0.125113);
+    padding: 24px 14px;
+}
+.messageList.active{
+    background-color: #fff;
+}

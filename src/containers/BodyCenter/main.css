@@ -1,0 +1,73 @@
+.carousel h3{
+    font-size: 24px;
+}
+.body-carousel{
+    margin-top: 56px;
+    margin-bottom: 26px;
+}
+.body-carousel .slick-track{
+    display: flex;
+}
+.body-carousel .slick-slider {
+    height: 97px;
+    position: relative;
+}
+.body-carousel .slick-next{
+    position: absolute;
+    right: -27px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: none;
+    border: none;
+    color: transparent;
+    outline: none;
+}
+
+.body-carousel .slick-prev{
+    position: absolute;
+    top: 5px;
+    left: -26px;
+    margin: auto;
+    background: none;
+    border: none;
+    color: transparent;
+    outline: none;
+    z-index: 1;
+}
+.body-carousel{
+    background: rgba(182, 202, 251, 0.159986);
+    box-shadow: inset 0px 21px 13px rgb(182 202 251 / 23%);
+    padding: 50px 0;
+    height: 330px;
+    box-sizing: border-box;
+}
+.bgc1{
+    background: linear-gradient(299deg, rgba(255,158,131,1) 35%, rgba(180,226,225,1) 35%);;
+}
+.bgc1 img , .bgc2 img{
+    position: absolute;
+    top: 39px;
+    right: 0;
+}
+.bgc3 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bgc2{
+    background: linear-gradient(299deg, rgba(182, 202, 251, 1) 35% , rgba(246, 218, 194, 1) 35% )
+}
+.bgc3{
+    background: linear-gradient(299deg, rgba(5,243,179,1) 35%, rgba(247,226,51,1) 35%);
+}
+.block{
+    border-radius: 10px;
+    width: 359px;
+    height: 258px;
+    margin: 0 auto;
+    position: relative;
+}
+.overFlow{
+    overflow: hidden;
+}

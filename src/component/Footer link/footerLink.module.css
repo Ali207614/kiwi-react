@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    width: 180px;
+    padding: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-align: left;
+    margin-left: 4px;
+}
+
+.img{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 6px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.info{
+    font-size: 12px;
+}
+.name{
+    font-size: 16px;
+}

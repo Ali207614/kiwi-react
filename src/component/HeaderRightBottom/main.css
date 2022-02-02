@@ -1,0 +1,22 @@
+.update-btn{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #19D476;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 12px 30px 13px 0;
+}
+.update-btn span{
+    background: #11B463;
+    border-radius: 22px;
+    padding: 8px 17px 11px 17px;
+    font-family: "Gilroy",sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-right: 13px;
+}

@@ -1,0 +1,9 @@
+.input-range__label--min {
+    display: none;
+}
+.input-range__label--max .input-range__label-container {
+    display: none;
+}
+.input-range {
+    width: 80%;
+}

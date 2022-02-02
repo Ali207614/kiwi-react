@@ -1,0 +1,20 @@
+.header{
+    background: #FFFFFF;
+    box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+    padding: 18px 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.input-group{
+    margin-right: 2%;
+}
+.headActive{
+    display: none;
+}

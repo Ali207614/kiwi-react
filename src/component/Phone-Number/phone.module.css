@@ -1,0 +1,41 @@
+.btn {
+    background: #65E99F;
+    border-radius: 18.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    width: 329px;
+    margin-bottom: 7px;
+}
+
+.text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -6.73319e-05px;
+    color: #000000; 
+    display: flex;
+   
+    width: 110px;
+}
+
+.btnTwo {
+    background: #41D481;
+    width: 186.3px;
+    text-align: center;
+    border-radius: 18.5px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 12px;
+}
+

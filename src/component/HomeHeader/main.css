@@ -1,0 +1,47 @@
+.product_link{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #9B9B9B;
+    position: relative;
+    margin-right: 77px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.product_link.fakeProduct{
+    color: #4E72CA;
+}
+.product_link:hover{
+    cursor: pointer;
+}
+.fakeProduct::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #4E72CA;
+    bottom: -13px;
+    left: 0;
+    margin: auto;
+}
+.menu-border{
+    height: 1px ;
+    width: 100%;
+    background-color: #D5D5D5 ;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.home-menu{
+    margin-top: 31px;   
+}
+.productNone{
+    display: none;
+}
+.productBlock{
+    display: block;
+}

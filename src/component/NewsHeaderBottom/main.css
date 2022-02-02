@@ -1,0 +1,21 @@
+.userName{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #414D6A;
+}
+.mon{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #304FFF;
+    }
+    .new{
+        margin-top: 38px;
+    }

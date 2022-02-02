@@ -1,0 +1,23 @@
+.wrapper{
+    background: rgba(0, 0, 0, 0.0470165);
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 0;
+}
+
+.firstDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 135px;
+    margin-right: 250px;
+}
+.secondDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}

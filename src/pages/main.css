@@ -1,0 +1,97 @@
+.product{
+    flex-wrap: wrap;
+
+    padding-bottom: 26px;
+}
+
+.image{
+    object-fit: contain;
+}
+.b-bottom{
+    border-bottom: 1px solid rgba(182, 202, 251, 0.606827);
+
+}
+.single-product-price{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.00016833px;
+    color: #444444;
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+.singlePro{
+    display: flex;
+    align-items: end;
+}
+.single-right , .single-left{
+    width: 100%;
+}
+.singleLink1{
+    font-family: "Gilroy",sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -5.89154e-05px;
+    text-decoration-line: underline;
+    color: #4E72CA;
+}
+.after{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -4.13787e-05px;
+    text-decoration-line: underline;
+    color: #2AAE63;
+    margin-left: 7px;
+}
+.upt{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -3.17237e-05px;
+    color: #000000;
+}
+.complain{
+    color: #D0021B;
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -5.89155e-05px;
+    margin-left: 200px;
+}
+.views{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -5.89155e-05px;
+    color: #000000;
+}
+.hideNumber{
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+.singlePro{
+    margin-bottom: 97px;
+}
+.breadCrum-home{
+    width: 18px;
+}
+.border_bottom{
+    
+border-bottom: 1px solid rgba(151, 151, 151, 0.393739);
+padding-bottom: 43px;
+
+}
+.empty{
+    height: 550px;
+}

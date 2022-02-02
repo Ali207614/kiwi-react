@@ -1,0 +1,60 @@
+.lastCarousel .slick-list{
+    overflow: hidden;
+   
+}
+.lastCarousel{
+    overflow: hidden;
+}
+.lastCarousel{
+    margin-top: 37px;
+}
+.lastCarousel .slick-track{
+    display: flex;
+    height: 365px;
+}
+.lastCarousel .card{
+    display: block;
+    width: 357px;
+    margin: 0 auto;
+    border: 1px solid rgba(120, 121, 147, 0.243461);
+    /* padding: 25px; */
+    height: 340px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.lastCarousel .slick-prev{
+    visibility: hidden;        
+}  
+.lastCarousel .slick-next::after{
+    content: "";
+    background-image: url("../../assets/icons/Fill\ 1.svg");
+    background-repeat: no-repeat;
+    display: block !important;
+    background-size: contain;
+    background-position: 6px;
+    width: 34px;
+    height: 34px;
+    box-shadow: 1px 3px 6px rgb(0 0 0 / 13%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.lastCarousel .slick-next{
+    position: absolute;
+    top: -80px;
+    bottom: 0;
+    right: -4px;
+    margin: auto;
+    background: none;
+    border: none;
+    color: transparent;
+    outline: none;
+    z-index: 1;
+}
+.lastCarousel_title{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #41D481;
+}

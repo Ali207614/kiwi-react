@@ -1,0 +1,18 @@
+.carousel-title{
+    font-family: "Gilroy",sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+    color: #000000;
+    width: 185px;
+    margin: 24px 0 0 31px;
+    display: inline-block;
+}
+.carousel-amount{
+    font-family: "Gilroy",sans-serif;
+    font-size: 15px;
+    line-height: 18px; 
+    color: #4A4A4A;
+    margin-top: 105px;
+    margin-left: 30px;
+}

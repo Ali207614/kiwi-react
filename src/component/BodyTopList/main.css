@@ -1,0 +1,97 @@
+.none{
+    display: none;
+}
+ .none.show{
+    display: block;
+    width: 1143px;
+    background: #FFFFFF;
+    position: absolute;
+    z-index: 6;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    top: 120px;
+    padding: 0px 61px 0px 29px;
+    box-sizing: border-box;
+    
+}
+.Carousel-box.show::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #DADADA; 
+      top: 111px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    transform: rotate(
+45deg
+);
+}
+.src img{
+    display: flex;
+    margin:  0 auto;
+}
+.box-1{
+    background: #B6CAFB;
+}
+.box-2{
+    
+background: #B4E2E1;
+}
+.box-3{
+    
+background: #FF9E83;
+}
+.box-4{
+    
+background: #F7E233;
+}
+.box-5{
+    background: #F6DAC2;
+}
+.box-6{
+    background: #B4E2E1;
+}
+.box-7{
+    background: #B6CAFB;
+    
+}
+.box-8{
+    background: #F6DAC2;
+}
+.box-9{
+    background: #FF9E83;
+}
+.btn{
+    border-radius: 20px;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.title{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 6px;
+}
+.carousel{
+    position: relative;
+    z-index: 6;
+
+}
+
+.Carousel-box{
+    position: relative;
+    z-index: 6;
+}
+.slick-slide{
+    height: 200px;
+}

@@ -1,0 +1,29 @@
+.image{
+    display: flex;
+    margin: 0 auto;
+    width: 219px;
+    height: 190px;
+    border-radius: 5px;
+}
+.card{
+    width: 20.1%;
+    margin: 18px 0;
+}
+.product_price{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 4px 15px;
+}
+.product_title{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 15px 14px 4px 15px;
+}

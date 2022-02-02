@@ -1,0 +1,28 @@
+.singleBtn1{
+    background: #304FFF;
+    border-radius: 23.5px;
+    font-family: "Gilroy",sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -5.89155e-05px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 15px 28px;
+}
+.singleBtn2{
+    background: #4E72CA;
+    border-radius: 23.5px;
+    font-family: "Gilroy",sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -5.89155e-05px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 15px 32px;
+    margin-left: 16px;
+}
+.buttonBox{
+    margin: 24px 0;
+}

@@ -1,0 +1,115 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-left {
+    width: 50%;
+}
+
+.register-head {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.register-input {
+    background: #FFFFFF;
+    border: 1px solid rgba(151, 151, 151, 0.482592);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 25px;
+    width: 100%;
+    height: 60px;
+
+}
+
+.form-first {
+    width: 330px;
+    margin: 75px auto;
+}
+
+.form-second {
+    width: 330px;
+    margin: 30px auto;
+}
+
+.register-label {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #787993;
+    margin-bottom: 7px;
+}
+
+.register-input-one {
+    width: 25%;
+}
+
+.register-input-two {
+    width: 70%;
+}
+
+.register-info-holder {
+    font-family: Gilroy;
+    font-size: 12px;
+    line-height: 14px;
+    color: #304FFF;
+}
+
+.register-info {
+    margin-top: 40px;
+    font-family: Gilroy;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.back-link {
+    background: #FFFFFF;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.279127);
+    border-radius: 5px;
+    height: 62px;
+    width: 82px;
+    border: none;
+    margin-right: 18px;
+    transition: all 0.2s ease;
+    background-image: url('../../assets/img/left-arrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 26px;
+}
+
+.back-link:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.279127);
+}
+
+.border-register {
+    margin-top: 20px;
+    border-color: #304FFF !important;
+}
+
+.btn-bg {
+    background: rgba(216, 216, 216, 0.46841);
+    border: none;
+}
+
+.form-three {
+    width: 330px !important;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    color: #304FFF;
+
+}

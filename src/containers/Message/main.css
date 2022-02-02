@@ -1,0 +1,24 @@
+.message-block{
+    background: rgba(0, 0, 0, 0.0470165);
+    padding: 35px 0;
+}
+.message-inner{
+    display: flex;
+    
+}
+.messageList-left{
+    width: 61%;
+    box-sizing: border-box;
+    border: none;
+    border-right: 1px solid #E1E6ED;
+
+}
+.messageList-right{
+    width: 100%;
+    padding: 35px 72px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

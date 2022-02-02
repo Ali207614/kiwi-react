@@ -1,0 +1,48 @@
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lang{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4A4A4A;
+}
+.enter{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #4E72CA;
+}
+.enter-right{
+    margin-left: 66px;
+}
+.line-1{
+    margin: 0 15px;
+}
+.line-2{
+    background-color: #4E72CA;
+    margin: 0 15px;
+}
+.line{
+    position: relative;
+}
+.line::before{
+    content: "";
+    display: block;
+    background: rgba(246, 218, 194, 0.831324);
+    height: 4px;
+    width: 23px;
+    position: absolute;
+    top: 6px;
+    left: -1px;
+    transform: rotate(-45deg);
+}
+.me-2{
+    margin-left: 10px;
+}
